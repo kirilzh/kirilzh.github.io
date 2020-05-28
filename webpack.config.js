@@ -22,6 +22,12 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           'css-loader?url=false'
         ]
+      },
+      {
+        test: /\.md$/,
+        use: [
+          'html-loader'
+        ]
       }
     ]
   },
