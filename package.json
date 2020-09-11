@@ -23,8 +23,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-markdown": "4.3.1",
-    "react-router-dom": "5.2.0",
-    "spectacle": "6.0.3"
+    "react-router-dom": "5.2.0"
   },
   "devDependencies": {
     "@types/node": "14.0.1",
