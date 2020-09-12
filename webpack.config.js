@@ -26,7 +26,7 @@ module.exports = {
       {
         test: /\.md$/,
         use: [
-          'html-loader'
+          'raw-loader'
         ]
       }
     ]
