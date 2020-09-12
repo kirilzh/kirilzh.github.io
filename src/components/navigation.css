@@ -11,3 +11,7 @@
 .list-item {
     display: inline;
 }
+
+.list-item:not(:first-child) {
+    padding-left: 40px;
+}
