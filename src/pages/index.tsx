@@ -1,12 +1,12 @@
 import * as React from 'react';
-import * as ReactMarkdown from "react-markdown";
+import * as ReactMarkdown from 'react-markdown';
 import { Route, Switch } from 'react-router-dom';
-import FirstPost from "./blog-post.md";
-import CV from './curriculum-vitae.md'
-import ToDo from './to-do-list.md'
-import { Layout } from "../components/layout";
+import FirstPost from './blog-post.md';
+import CV from './curriculum-vitae.md';
+import ToDo from './to-do-list.md';
+import { Layout } from '../components/layout';
 
-export const Routes = () => {
+export const Routes: React.FunctionComponent = () => {
   return (
     <Layout>
       <Switch>
@@ -15,5 +15,5 @@ export const Routes = () => {
         <Route path="/" component={() => <ReactMarkdown source={FirstPost} />} />
       </Switch>
     </Layout>
-  )
+  );
 };

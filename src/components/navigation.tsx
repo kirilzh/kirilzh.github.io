@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 import './navigation.css';
 
-export const NavigationBar: React.FunctionComponent = (props) => {
+export const NavigationBar: React.FunctionComponent = () => {
   return (
     <nav className="navigation">
       <ul className="list">
@@ -26,5 +26,5 @@ export const NavigationBar: React.FunctionComponent = (props) => {
         </ul>
       </ul>
     </nav>
-  )
-}
+  );
+};

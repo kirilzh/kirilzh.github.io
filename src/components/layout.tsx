@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './layout.css';
-import { NavigationBar } from "./navigation";
+import { NavigationBar } from './navigation';
 
 export const Layout: React.FunctionComponent = (props) => {
   const { children } = props;
@@ -13,5 +13,5 @@ export const Layout: React.FunctionComponent = (props) => {
         {children}
       </div>
     </div>
-  )
-}
+  );
+};
