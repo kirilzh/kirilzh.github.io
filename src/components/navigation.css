@@ -1,0 +1,13 @@
+.navigation {
+    padding: 20px 0;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.list-item {
+    display: inline;
+}

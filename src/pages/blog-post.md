@@ -1,5 +1,5 @@
 # Hello Everyone
-
+  
 This is my first blog post. I'm doing this because I was inspirid by this article. I'll try to keep them interesting
 and as a challenge I'll try to write here once a week. Topics covered will be related to things I've read about during
 the week and things I'm still not very familiar with. This will be my outlet where I can learn in public.
@@ -11,17 +11,16 @@ https://www.swyx.io/writing/learn-in-public/
 
 Here's a quote just in case the link breaks
 
-```
 If there's a golden rule, it's this one, so I put it first. All the other rules are more or less elaborations of this 
 rule #1.
 
-```
 
 You already know that you will never be done learning. But most people "learn in private", and lurk. They consume content without creating any themselves. Again, that's fine, but we're here to talk about being in the top quintile. What you do here is to have a habit of creating learning exhaust:
 
     Write blogs and tutorials and cheatsheets.
     Speak at meetups and conferences.
-    Ask and answer things on Stackoverflow or Reddit. Avoid the walled gardens like Slack and Discord, they're not public.
+    Ask and answer things on Stackoverflow or Reddit. 
+    Avoid the walled gardens like Slack and Discord, they're not public.
     Make Youtube videos or Twitch streams.
     Start a newsletter.
     Draw cartoons (people loooove cartoons!).
@@ -42,3 +41,8 @@ Oh you think you're done? Don't stop there:
 If you're tired of creating one-off things, start building a persistent knowledge base that grows over time. Open Source your Knowledge! At every step of the way: Document what you did and the problems you solved.
 "
 
+```ts
+function potato(variable) {
+  return variable;
+}
+```
