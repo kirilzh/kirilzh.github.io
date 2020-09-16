@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
+import Toggle from './toggle';
 import './navigation.css';
 
 export const NavigationBar: React.FunctionComponent = () => {
@@ -22,6 +23,9 @@ export const NavigationBar: React.FunctionComponent = () => {
             <p>
               <Link to="/about">about</Link>
             </p>
+          </li>
+          <li className="list-item">
+            <Toggle />
           </li>
         </ul>
       </ul>
