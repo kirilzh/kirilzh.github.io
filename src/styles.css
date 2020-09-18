@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    background-color: var(--main-color);
     color: var(--secondary-color);
+    background-color: var(--main-color);
+    transition: all ease-in 0.2s;
 }
 
 :root, .light-theme {
@@ -17,11 +17,10 @@
 :root, .dark-theme {
     --main-color: #6E6E6E;
     --secondary-color: #fff;
-    --toggle-background: #E7B654
+    --toggle-background: #E7B654;
 }
 
-
 a {
-    color: inherit;
+    color: var(--secondary-color);
     text-decoration: none;
 }
