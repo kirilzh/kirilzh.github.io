@@ -3,7 +3,7 @@
 ### Date 11-09-2020
 This is my first blog post. I'm doing this because I was inspired by [_Learn in public_](https://www.swyx.io/writing/learn-in-public/)
 article. I'll be doing a lot of creative writing here, but I'll try to improve on my language as I do more blog posts.
-Also, as a challenge I'll try to write here once a week. Topics covered will be related to things I've read about during
+Also, as a challenge I'll try to write here at leas once a month. Topics covered will be related to things I've read about during
 the week which can be economics/statistics/computer science and what not. This will be my outlet where I can learn in 
 public.
 
